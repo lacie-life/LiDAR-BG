@@ -216,3 +216,63 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# BG-LiDAR research artifacts
+# Python and editor files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Build products
+build/
+dist/
+*.egg-info/
+*.so
+*.pyd
+*.o
+*.obj
+
+# Datasets, generated backgrounds and checkpoints
+# Keep preprocessing scripts, class names and ImageSets split lists.
+*.bin
+*.pcd
+*.ply
+*.las
+*.laz
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.engine
+
+# Experiment output and temporary archives
+output/
+outputs/
+logs/
+runs/
+checkpoints/
+*.log
+events.out.tfevents.*
+*.zip
+*.tar
+*.tar.gz
